@@ -1,0 +1,31 @@
+
+
+.wrapper {
+    width: 1000px;
+    max-width: 1000px;
+}
+
+div {
+    border: solid 1px black;
+}
+
+.no-padding {
+    padding: 0px !important;
+}
+
+.no-border {
+    border: solid 1px white;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: stretch;
+  }
+  
+  .flex-container > div {
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+  }
